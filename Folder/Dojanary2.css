@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container {
+    width: 100%;
+}
+#container button {
+    width: 70px;
+    background-color: blue;
+    color: white;
+}
+.nav-bar {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+h1 {
+    font-size: 20px;
+}
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    width: 0%;
+    align-items: center;
+    padding: 0px 10px;
+
+}
+ .nav-right form {
+    display: flex;
+    width: 100px;
+    background-color: gray;
+    
+}
+.nav-right button{
+    background-color: blue;
+    margin-right: 50px;
+    width: 70px;
+}
+#search {
+    border-color: rgb(26, 13, 13);
+    height: 20px;
+    margin: center;
+    border: 2px solid black;
+}
+
+.main {
+    border: 3px solid black;
+    width: 380px;
+    height: 150px;
+    margin: 0px auto;
+    padding: 30px;
+}
+
+
+.Likes {
+    background-color:  orange;
+    color: black;
+    padding: 5px 10px;
+    box-shadow: black;
+    border: 5px 5px solid black;
+    width: 70px;
+}
+.top-main p {
+    margin-left: 180px;
+    font-style: calc();
+
+
+}
+
+.bottom-main {
+    border: 3px solid black;
+    width: 380px;
+    height: 150px;
+    margin: 0px auto;
+    padding: 30px;
+    margin-top: 100px;
+
+}
+.likes {
+    background-color:  orange;
+    color: black;
+    padding: 5px 10px;
+    box-shadow: black;
+    border: 5px 5px solid black;
+    width: 70px;
+}
+.side-main {
+    border: 3px solid black;
+    width: 140px;
+    height: 70px;
+    margin-right: 0px auto;
+    padding: 40px;
+    margin-top: 100px;
+    padding: 35px;
+    
+
+
+}
+.adddefinition {
+    background-color:  greenyellow;
+    color: black;
+    width: 110px;
+    height: 40px;
+    padding: 5px 10px;
+    box-shadow: black;
+    border: 15px 15px solid black;
+}
+.popup{
+    display: none;
+    background-color: white;
+    text-align: center; 
+    width: 150px; 
+    margin: 0px auto; 
+    border-radius: 10px;
+}
+.popup-btn {
+    background-color: 2px solid black ;
+    border: none;
+    width: 40%;
+   
+
+}
+#popup p {
+        border-bottom: 2px solid black;
+        padding: 15px 5 px;
+}
+
